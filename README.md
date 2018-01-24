@@ -1,5 +1,17 @@
 # haoqi
+
 ##配置
+### Spring version 5.0.2.RELEASE
+> spring-core
+> spring-context
+> spring-aop
+> spring-tx
+> spring-beans
+> spring-webmvc
+> spring-web
+> spring-context-support
+> spring-test
+
 
 ### web.xml
 
