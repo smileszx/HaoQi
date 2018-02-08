@@ -23,6 +23,8 @@
   	<servlet-api.version>3.1.0</servlet-api.version>
   	
   	<mysql.version>5.1.45</mysql.version>
+  	
+  	<cglib.version>3.2.6</cglib.version>
   </properties>
   
   <dependencies>
@@ -125,6 +127,24 @@
 	    <groupId>javax.servlet</groupId>
 	    <artifactId>jstl</artifactId>
 	    <version>${javax.servlet.version}</version>
+	</dependency>
+	
+	<!-- cglib -->
+	<dependency>
+		<groupId>cglib</groupId>
+		<artifactId>cglib-nodep</artifactId>
+		<version>${cglib.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>cglib</groupId>
+		<artifactId>cglib</artifactId>
+		<version>${cglib.version}</version>
+	</dependency>
+	<!-- 二维码 -->
+	<dependency>
+	    <groupId>com.google.zxing</groupId>
+	    <artifactId>core</artifactId>
+	    <version>3.3.2</version>
 	</dependency>
   </dependencies>
   
